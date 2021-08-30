@@ -5,6 +5,51 @@
 
 It is more or less standardized, and used by almost all relational database management systems: SQL Server, Oracle, MySQL, PostgreSQL, DB2, Informix, etc.
 
+## SELECT
+
+The result of a SELECT statement may be used as a value in another statement
+
+```
+SELECT name FROM world
+  WHERE population >
+     (SELECT population FROM world
+      WHERE name='Russia')
+```
+
+### a correlated or synchronized sub-query
+
+Find the largest country (by area) in each continent, show the continent, the name and the area
+
+```
+SELECT continent, name, area FROM world x
+  WHERE area>= ALL
+    (SELECT area FROM world y
+        WHERE y.continent=x.continent
+          AND area>0)
+```
+
+A correlated subquery works like a nested loop: the subquery only has access to rows related to a single record at a time in the outer query. The technique relies on table aliases to identify two different uses of the same table, one in the outer query and the other in the subquery.
+
+### Operators over a set
+
+These operators are binary - they normally take two parameters:
+```
+=     equals
+>     greater than
+<     less than
+>=    greater or equal
+<=    less or equal
+```
+
+
+You can use the words ALL or ANY where the right side of the operator might have multipl
+
+```
+SELECT name, continent, population FROM world x
+  WHERE 25000000>=ALL (SELECT population FROM world y
+                         WHERE x.continent=y.continent
+                         AND population>0)
+```
 
 ## Follow basic exercise here
 
