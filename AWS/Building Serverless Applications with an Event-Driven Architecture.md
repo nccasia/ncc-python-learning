@@ -20,7 +20,7 @@ This lab is built around a photo book printing application
 - The workflow managed by state machin `ImageProcessStateMachine`, uses Lambda functions to make sure that each image is the proper file type (`ExtractImageMetadataFunc`, `TransformMetadataFunction`, `ImageValidationFunction`) and uses Amazon Rekognition to ensure that the content is appropriate. 
 - lambdas `ResizeFunction`, `WatermarkFunction` resizes and watermarks the images and then generates a PDF proof for the customer to approve `ReadyForBookPrintFunction`, `DigitalBindingFunction`, `LambdaHumanApprovalSendE`. 
 - Amazon SNS topic `xxxx-SNSTopicForUserCommunication-xxxx` sends an email to the customer for preview the PDF and approval before sending the job to Amazon SQS. 
-- Amazon SQS queue `xxxx-BookPrintQueue-xxxx` sends off the book to the third-party printing service to be printed and shipped to the customer (`PrintVendorTrigger`, `BookprintStateMachine`).
+- Amazon SQS queue `xxxx-BookPrintQueue-xxxx` sends off the book to the third-party printing service to be printed and shipped to the customer (`PrintVendorTrigger`, `BookprintStateMachine` -> `PrintVendorFunction`).
 
 ## Troubleshooting Serverless Applications
 

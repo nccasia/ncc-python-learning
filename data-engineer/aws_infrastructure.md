@@ -144,4 +144,5 @@ Lab name:
  - Deployment & Management
  - Creating an Amazon Virtual Private Cloud (VPC) with AWS CloudFormation
  - SysAdmin on AWS for Windows
+ - Working with Amazon Elastic Container Service
 
