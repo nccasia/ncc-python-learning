@@ -6,6 +6,15 @@ Use Amazon DynamoDB and a serverless AWS Lambda based architecture to deploy a w
  - You have been tasked with creating and implementing this functionality combining Amazon DynamoDB, AWS Lambda, and Amazon API Gateway in conjunction with a front-end website you have been given.  
  - There is an optional task of integrating Amazon Cognito with the application to authorize users.
 
+### Cognito
+
+This service gives you the capability to manage authentication and aspects of authorization for your custom web and mobile applications through AWS
+
+- It is a fully managed user directory service for custom applications.
+- It also provides UI components from many platforms. So if you want to have a sign in or sign up UI, for example, for your iOS application or for your React web application of your Android application, you can get those out of the box with Cognito. 
+- It also provides some advanced security controls to control account access.
+- It also enables you to control access to AWS resources
+
 ## Lab
 
 Use AWS CLI in Cloud 9

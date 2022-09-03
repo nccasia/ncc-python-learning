@@ -1,15 +1,37 @@
+Python is strongly, dynamically typed.
+
+ - **Strong** typing means that the type of a value doesn't change in unexpected ways. A string containing only digits doesn't magically become a number, as may happen in Perl. Every change of type requires an explicit conversion.
+
+```
+'foo' + 3 --> TypeError: cannot concatenate 'str' and 'int' objects
+```
+
+ - **Dynamic** typing means that runtime objects (values) have a type, as opposed to static typing where variables have a type.
+
+```
+>>> bob = "bob"
+>>> type(bob)
+<class 'str'>
+>>> bob = 1
+>>> type(bob)
+<class 'int'>
+```
+
+## Common data types
+
+1. bool
+2. float
+3. int
+4. str
+5. range
+6. list: auto manage size
+7. tuple: A tuple is a collection which is ordered and unchangeable
+8. dict
+9. set
+
 ## Numbers, Variables, and Strings
 
-
-`\t`: Tab
-
-`\\` or `//`: Allowed Slash
-
-`\'`: Allowed Single Quote
-
-`\"`: Allowed Double quote
-
-`{{` or `}}`: Allowed single curly bracket in formatted strings
+Strings in python are surrounded by either single quotation marks, or double quotation marks.
 
 `"your single-line text"`: Wrap a single quote (`'`) or double quote (`"`) around text / numbers to make it a string.
 
@@ -27,13 +49,10 @@ when I close it here"""
 ```
 
 
-#### The `.format()` method
-
-
-#### The `%` method
-
-
-#### `f` Strings (aka `f-string`)
+1. The `.format()` method
+2. The `%` method
+3. `f` Strings (aka `f-string`)
+4. Strings are Arrays
 
 ## Lists, Tuples & Dictionaiers
 
@@ -63,6 +82,7 @@ Tuples are a lot like lists, but they're immutable so they can't be changed in-p
 ```
 
 ### Dictionaries
+
 ```python
 >>> my_data = {"name": "Justin Mitchel"}
 >>> my_data["name"]
@@ -108,7 +128,32 @@ We can create a set just like a dictionary, but without :.
 
 ```
 
-
 ## Iterables, iterators and Generators
 
+### Iterables and Iterators
 
+An iterator is an object that contains a countable number of values.
+Technically, in Python, an iterator is an object which implements the iterator protocol, which consists of the methods __iter__() and __next__().
+
+```
+iter_obj=iter([3,4,5])
+This creates an iterator.
+
+next(iter_obj)
+
+This return the first element i.e 3
+
+next(iter_obj)
+
+This returns the next element i.e 4 and so on.
+```
+
+Lists, tuples, dictionaries, and sets are all iterable objects. They are iterable containers which you can get an iterator from. All these objects have an iter() method which is used to get an iterator.
+
+### Generators
+
+A generator functions are a special kind of function that return a lazy iterator. However, unlike lists, lazy iterators do not store their contents in memory.
+
+Generator is efficient for writing fast and compact code.
+
+https://realpython.com/introduction-to-python-generators/#using-generators

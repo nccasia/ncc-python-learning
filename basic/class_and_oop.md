@@ -1,3 +1,7 @@
+## What's OOP?
+
+**OOP Object-oriented programming (OOP)** is a programming paradigm based on the concept of "objects", which can contain data and code: data in the form of fields (often known as attributes or properties), and code, in the form of procedures (often known as methods).
+
 ## Classes and Inheritance
 
 We can define attributes and functions inside a class. In Python, there's a "magic" method that runs when we create a new instance by calling theclass. It's called __init__ and it does nothing by default. If our __init__ method takes other arguments than self we can call the class with arguments and they will be given to __init__.

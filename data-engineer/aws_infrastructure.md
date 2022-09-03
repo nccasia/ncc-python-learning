@@ -7,6 +7,8 @@ Lab for practicing: https://amazon.qwiklabs.com/. Please take as many labs as po
 Apply for the free courses first(19 introductory labs), while trying to ask for free credits here
 https://edu.google.com/programs/credits/training/?modal_active=none
 
+We can also check if the new account has 30-day trial without payment. 
+
 Create a branch with your name and add a report for each lab you finish, then push the branch and notify your supervisor. Each lab and report should be finished within 4 hours.
 
 There is another way is registering for an AWS Free tie account and follow the following courses

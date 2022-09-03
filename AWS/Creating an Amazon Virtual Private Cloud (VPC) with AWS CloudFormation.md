@@ -2,13 +2,11 @@
 
 This lab shows how to create an Amazon Virtual Private Cloud (VPC) using AWS CloudFormation.
 
-<ul>
-<li>Deploy an AWS CloudFormation template that creates an Amazon VPC</li>
-<li>Examine the components of the template</li>
-<li>Update a CloudFormation stack</li>
-<li>Examine a template with the AWS CloudFormation Designer</li>
-<li>Delete a CloudFormation stack</li>
-</ul>
+ - Deploy an AWS CloudFormation template that creates an Amazon VPC
+ - Examine the components of the template
+ - Update a CloudFormation stack
+ - Examine a template with the AWS CloudFormation Designer
+ - Delete a CloudFormation stack
 
 ## AWS CloudFormation
 

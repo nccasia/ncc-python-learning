@@ -9,6 +9,7 @@ To get the most out of Amazon S3, you need to understand a few simple concepts:
   - View access logs for the bucket and its objects.
   - Choose the geographical region where Amazon S3 will store the bucket and its contents.
 - You can create folders to group objects within buckets. You can also nest folders (create folders within folders). If you have used the Amazon S3 API or other utilities, you can learn some important aspects about how folders work with other grouping conventions in the [Amazon Simple Storage Service Console User Guide](http://docs.aws.amazon.com/AmazonS3/latest/UG/)
+
 ## Conclusion
 I have successfully:
 - Created an Amazon S3 bucket.

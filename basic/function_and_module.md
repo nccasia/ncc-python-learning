@@ -115,3 +115,11 @@ There's a module called sys that contains various things built into Python. Actu
 
 ```
 
+### commonly used built-in modules in Python
+
+- os
+- sys
+- math
+- random
+- data time
+- JSON
