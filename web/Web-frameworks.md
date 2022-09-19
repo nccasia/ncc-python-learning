@@ -18,4 +18,17 @@ Generally, frameworks provide support for a number of activities such as
 
 Many frameworks now provide an element of customization in their support for the above activities and abstractions, utilizing components in that they provide abstractions only for certain specific things. As a result, it can be possible for you to build your own full-stack framework almost entirely from existing components.
 
+### [python-dateutil](/Technical%20Stack/Backend%20Developer/Date%20&%20Time.md#python-dateutil)
+
+*   [ ] You are able to create relative datetime objects
+
+### [pytz](/Technical%20Stack/Backend%20Developer/Date%20&%20Time.md#pytz)
+
+*   [ ] You can convert timezones of datetime objects
+
+#### [JWT](/Technical%20Stack/Backend%20Developer/3rd%20Party.md#jwt)
+
+*   [ ] You how used at least one library to work with JWT
+*   [ ] You can create JWT with custom payload
+
 

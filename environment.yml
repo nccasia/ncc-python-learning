@@ -1,0 +1,44 @@
+name: tutorial
+channels:
+  - conda-forge
+dependencies:
+  - python=3.9
+  - asyncssh
+  - bokeh
+  - bs4
+  - dask
+  - dask-jobqueue
+  - dask-ml
+  - faker
+  - feather-format
+  - findspark
+  - h5py
+  - ipykernel
+  - ipywidgets
+  - jupyterlab
+  - jupytext
+  - lorem
+  - lxml
+  - matplotlib
+  - nbserverproxy
+  - nodejs
+  - nomkl
+  - numba
+  - numpy
+  - pandas
+  - pip
+  - pip:
+    - dask_labextension
+    - mimesis
+  - pyarrow
+  - pyspark
+  - pytables
+  - python-graphviz
+  - requests
+  - scikit-learn
+  - seaborn
+  - tornado
+  - tqdm
+  - xarray
+  - ipython-sql
+  - imageio
