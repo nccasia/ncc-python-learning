@@ -1,7 +1,6 @@
 
-https://developer.mozilla.org/en-US/docs/Learn/Server-side/Django
-https://github.com/mdn/django-locallibrary-tutorial
-https://github.com/zaxlct/python-django-learning
+ - https://developer.mozilla.org/en-US/docs/Learn/Server-side/Django together with https://github.com/mdn/django-locallibrary-tutorial
+ - https://learndjango.com/tutorials/how-learn-django
 
 
 The Django framework is one of the most used Python web frameworks for developing large-scale web applications and websites. It tends to follow the MVC architecture minutely enough to be known as an MVC framework. 
@@ -31,15 +30,11 @@ Support for localization, user authentication, sessions, cookies, web server, we
 *   [ ] You can setup/create migrations
 *   [ ] You use sub queries
 
-### pynamodb
-
-*   [ ] You know how to create a model
-*   [ ] You know how to fetch by a hash or scan by props
-*   [ ] You know how to do an upsert opearation
-
 ### django-filter
 
 *   [ ] You can create full text search query
 *   [ ] You know how to use ordering query
 *   [ ] You can use it with DRF Generic View
 *   [ ] You know how to create custom queryset for a filter
+
+

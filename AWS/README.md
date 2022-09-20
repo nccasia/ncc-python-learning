@@ -1,13 +1,13 @@
-
+## AWS
 
 [Short description for reading](https://github.com/open-guides/og-aws)
 
 Lab for practicing: https://amazon.qwiklabs.com/. Please take as many labs as posible. In each lab, there will be a student AWS account for you to login and do the exercise.
 
-Apply for the free courses first(19 introductory labs), while trying to ask for free credits here
+Apply for the free courses first(introductory labs), while trying to ask for free credits here
 https://edu.google.com/programs/credits/training/?modal_active=none
 
-We can also check if the new account has 30-day trial without payment. 
+We can also register the new account has 30-day trial in case you have a credit card. 
 
 Create a branch with your name and add a report for each lab you finish, then push the branch and notify your supervisor. Each lab and report should be finished within 4 hours.
 
