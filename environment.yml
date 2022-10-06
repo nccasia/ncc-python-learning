@@ -42,3 +42,5 @@ dependencies:
   - xarray
   - ipython-sql
   - imageio
+  - psycopg2
+  - pgspecial
