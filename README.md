@@ -41,7 +41,7 @@ These are some of the most common areas where Python is used, but it is also use
 ## Further topics
 
 1. Debugging
-2. Basic Linux commands, Cron jobs
+2. [Basic Linux commands](https://github.com/MichaelCade/90DaysOfDevOps/blob/main/2022/Days/day15.md)
 3. SQL Databases: Design, Queries, Indexes
 4. Algorithm: https://github.com/TheAlgorithms/Python
 5. Securities
