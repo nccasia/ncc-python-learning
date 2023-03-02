@@ -12,7 +12,7 @@ def crawl_itviec():
         context = browser.new_context()
         page = context.new_page()
         page.set_default_timeout(0)
-        page.goto("https://itviec.com/viec-lam-it?job_selected=embedded-firmware-engineer-qorvo-2235&utm_source=google&utm_medium=display&utm_campaign=hcm_performancemax&gclid=CjwKCAiA9NGfBhBvEiwAq5vSy4BL4jVoKwgsNxFNRZVGiuquDOeMu409Of3NlkPoIh7X1hQQZO-Q7RoC9OIQAvD_BwE")
+        page.goto("link")
         page.locator("#navbarNavDropdown").get_by_role("link", name="Đăng Nhập").click()
         page.get_by_placeholder("Email").click()
         page.get_by_placeholder("Email").fill("6051071029@st.utc2.edu.vn")
